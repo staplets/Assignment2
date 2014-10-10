@@ -1,0 +1,87 @@
+/*Style.css file for Assignment 2
+  Author: Shaun Stapleton
+  Last edit: 10/09/14  
+*/
+
+table, th, td { 
+	border: 1px solid black;}
+
+tbody th { 
+	font-style: italic; 
+	font-weight: normal;}
+
+tbody tr td:nth-child(2) { 
+	color: red;}
+
+tbody tr td:nth-child(4) {
+	color:blue;}
+
+form  div{
+	border: 2px solid gray; 
+	padding: 0 0 0 1em; 
+	margin-bottom: 1em; 
+	margin-right: 5em;}
+
+form {
+	border: 2px solid gray; 
+	padding: 0 0 0 1em; 
+	margin-bottom: 1em; 
+	margin-right: 65em;}
+
+dl dt:hover + dd { 
+	background-color: purple;}
+
+div { 
+	display: inline-block}
+
+#red {
+	background-color:red; 
+	height: 100px; 
+	width: 15%;
+	margin-top: 20px;
+	margin-left: 5%;
+	float:left;}
+
+#orange {
+	background-color:orange; 
+	height: 100px; 
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 10%;
+	float:left;}
+
+#yellow {
+	background-color:yellow; 
+	height: 200px; 
+	width: 50px;
+	margin-top: 75px;
+	margin-left: 100px;
+	display: inline-block;
+	float:left;
+	clear:both;}
+
+#green {
+	background-color:green; 
+	height: 200px; 
+	width: 150px;
+	margin-top: 75px;
+	margin-left: 20px;
+	float:left;}
+
+#blue {
+	background-color:blue; 
+	height: 200px; 
+	width: 50px;
+	margin-top: 75px;
+	float: left;
+	clear: both;}
+
+#indigo {
+	background-color:indigo; 
+	height: 200px; 
+	width: 150px;
+	margin-top: 75px;
+	margin-left: 20px;
+	margin-right: 100px;
+	float: left;
+	clear: right;}
