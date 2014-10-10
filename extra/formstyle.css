@@ -1,0 +1,53 @@
+/*Style.css file for Assignment 2 Extra
+  Author: Shaun Stapleton
+  Last edit: 10/09/14  
+*/
+
+
+ body div {
+	font-size: 400%;
+	position: absolute;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	height: 800px;
+	width: 800px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+img {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;}
+	
+
+/*information found from source: http://www.w3schools.com/css/css_text.asp */
+/* Adds color changing animation */
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst {
+    0%   {background: red;}
+    10%  {background: yellow;}
+    20%  {background: blue;}
+    30% {background: green;}
+	40% {background: indigo;}
+	50% {background: orange;}
+	60% {background: red;}
+	70% {background: yellow;}
+	80% {background: blue;}
+	90% {background: green;}
+	100% {background: indigo;}
+}

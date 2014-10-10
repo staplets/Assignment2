@@ -1,0 +1,163 @@
+<!--  Layout.html file for Assignment 2 -->
+<!--  Author: Shaun Stapleton
+	  Last edited: 10/09/14
+	  -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <!-- 6x6 table  -->
+  <body>
+    <table>
+      <caption>My made up favorite food combination chart.</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Chicken</th>
+          <th>Beef Tips</th>
+		  <th>Steak</th>
+		  <th>Spinach</th>
+		  <th>Shrimp</th>
+        </tr>
+      </thead>
+      <tbody>
+	    <tr>
+          <th>Dreadful</th>
+          <td>No</td>
+          <td>Yes</td>
+		  <td>No</td>
+		  <td>Yes</td>
+		  <td>No</td>
+        </tr>
+        <tr>
+          <th>Not my favorite</th>
+          <td>No</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+		  <td>Yes</td>
+		  <td>No</td>
+        </tr>
+       <tr>
+          <th>Average</th>
+          <td>No</td>
+          <td>No</td>
+		  <td>Yes</td>
+		  <td>No</td>
+		  <td>No</td>
+        </tr>
+       <tr>
+          <th>Pretty Good</th>
+          <td>Yes</td>
+          <td>No</td>
+		  <td>Yes</td>
+		  <td>No</td>
+		  <td>Yes</td>
+        </tr>
+       <tr>
+          <th>Amazing</th>
+          <td>Yes</td>
+          <td>No</td>
+		  <td>No</td>
+		  <td>No</td>
+		  <td>Yes</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>One column</td>
+          <td colspan="4">Four columns</td>
+        </tr>
+      </tfoot>
+    </table>
+	
+	<!-- Description List  -->
+	<dl>
+		<dt>Favorite Cartoon</dt>
+			<dd>Scooby Doo</dd>
+		<dt>Favorite Holiday</dt>
+			<dd>Thanksgiving</dd>
+		<dt>Favorite Season</dt>
+			<dd>Summer</dd>
+	</dl>
+	
+	<!-- Form with Post method -->
+	<form action="theformpage.html" method="post">
+		Some Post Data <br> <br>
+		<div>
+			Text here:
+			<input type="text" name="sometext" />
+		</div>
+		<div>
+			Number here:
+			<input type="number" name="phone" />
+		</div>   
+		<div>
+			Password here:
+			<input type="password" name="secret" />
+		</div>
+		<br>
+		<div>
+			<br>
+			Select Between:<br><br>
+			<input type="radio" name="candy" value="Snickers">Snickers</input><br><br>
+			<input type="radio" name="candy" value="Skittle">Skittles</input><br><br>
+			<input type="radio" name="candy" value="Mentos">Mentos</input><br><br>
+		   
+			<input type="submit">
+		</div>
+	</form>
+	
+	<!-- Form with Get method -->
+	<form action="theformpage.html" method="get">
+		Some Get Data <br> <br>
+		<div>
+			Text here:
+			<input type="text" name="sometext" />
+		</div>
+		<div>
+			Number here:
+			<input type="number" name="phone" />
+		</div>   
+		<div>
+			Password here:
+			<input type="password" name="secret" />
+		</div>
+		<br>
+		<div>
+			<br>
+			Select Between:<br><br>
+			<input type="radio" name="candy" value="Snickers">Snickers</input><br><br>
+			<input type="radio" name="candy" value="Skittle">Skittles</input><br><br>
+			<input type="radio" name="candy" value="Mentos">Mentos</input><br><br>
+		   
+			<input type="submit">
+		</div>
+	</form>
+	
+	<!-- For div set up -->
+	<div id="red">
+	</div>
+	
+	<div id="orange">
+	</div>
+	
+	<div id="yellow">
+	</div>
+	
+	<div id="green">
+	</div>
+	
+	<div id="blue">
+	</div>
+	
+	<div id="indigo">
+	</div>
+		
+  </body>
+</html>
