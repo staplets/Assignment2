@@ -40,7 +40,8 @@ div {
 	width: 15%;
 	margin-top: 20px;
 	margin-left: 5%;
-	float:left;}
+	float:left;
+	clear:both;}
 
 #orange {
 	background-color:orange; 
@@ -48,7 +49,7 @@ div {
 	width: 50%;
 	margin-top: 20px;
 	margin-left: 10%;
-	float:left;}
+	}
 
 #yellow {
 	background-color:yellow; 
@@ -65,16 +66,8 @@ div {
 	height: 200px; 
 	width: 150px;
 	margin-top: 75px;
-	margin-left: 20px;
-	float:left;}
+	margin-left: 20px;}
 
-#blue {
-	background-color:blue; 
-	height: 200px; 
-	width: 50px;
-	margin-top: 75px;
-	float: left;
-	clear: both;}
 
 #indigo {
 	background-color:indigo; 
@@ -83,5 +76,11 @@ div {
 	margin-top: 75px;
 	margin-left: 20px;
 	margin-right: 100px;
-	float: left;
-	clear: right;}
+	float: right;}
+	
+	#blue {
+	background-color:blue; 
+	height: 200px; 
+	width: 50px;
+	margin-top: 75px;
+	float: right;}
